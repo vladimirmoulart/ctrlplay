@@ -92,19 +92,16 @@ img {
 
 .joker {
     position: absolute;
-    width: 150px; /* Taille des images */
-    height: 150px;
+    width: 100px; /* Taille des images */
+    height: 100px;
     top: 50%; /* Centré verticalement */
     transform: translateY(-50%); /* Ajuste l'alignement vertical */
 }
 
-.joker-left {
-    left: -200px; /* Position à gauche de la roue */
-    transform: translateY(-50%) scaleX(-1); /* Inverse l'image horizontalement */
-}
 
 .joker-right {
-    right: -200px; /* Position à droite de la roue */
+    top: -30px; 
+    right: -30px; /* Position à droite de la roue */
 }
 
 
